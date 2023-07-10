@@ -1,0 +1,542 @@
+* {
+  padding: 0;
+  margin: 0
+}
+
+body {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  background-color: #fdf3f3;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  box-shadow: 0px 2px 16px 2px lightgray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo img {
+  height: 32px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 30px;
+}
+
+#navbar ul li a:hover {
+  color: #f19494
+}
+
+.auth {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+a {
+  color: black;
+}
+
+
+.footer-list ul li a {
+  list-style-type: none;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  display: flex;
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  background-color: #000000;
+  padding: 10px 95px 0px 95px;
+  bottom: 0;
+  position:relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+
+.list-sosmed {
+  list-style-type: none;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: smaller;
+  margin-bottom: 20px;
+}
+
+.list-sosmed img {
+  margin-top: 1rem;
+  width: 15px;
+  height: 15px;
+
+}
+
+.sosmed {
+  display: flex;
+  gap: 10px;
+}
+
+.training img {
+  margin-top: 1rem;
+  width: 100px;
+  height: 100px;
+}
+
+.list-1 {
+  height: 200px;
+  width: 300px;
+}
+
+.content li {
+  margin-top: 2rem;
+  font-size: large;
+}
+
+.gallery img {
+  margin-top: 2rem;
+  width: 160px;
+  height: 200px;
+}
+
+.gallery-sec {
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 50px;
+}
+
+.gallery-sec img {
+  width: 80px;
+  height: 80px;
+}
+
+.gallery-content img {
+  width: 470px;
+  height: 300px;
+}
+
+.gallery-logo {
+  margin-top: 6rem;
+}
+
+.gallery-report img {
+  width: 540px;
+  height: 350px;
+}
+
+.testimonial {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 100px;
+  color: #FFFFFF;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.testimonial img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  /* left: 0;
+  padding: 0; */
+  border-radius: 100%;
+  margin-bottom: 2rem;
+}
+
+.skill {
+  color: purple;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: xxx-large;
+  font-family: SuisseWorks-Bold;
+}
+
+.paragraf-content {
+  margin-bottom: 1rem;
+  font-size: x-large;
+}
+
+.sec-heading {
+  margin-top: 2rem;
+  font-size: xxx-large;
+  font-family: SuisseWorks-Bold;
+  align-items: center;
+  text-align: center;
+}
+
+.sec-paragraf-content {
+  margin-top: 1rem;
+  font-size: large;
+  text-align: center;
+}
+
+.third-paragraf-content {
+  font-size: large;
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.fourth-paragraf-content {
+  margin-top: 4rem;
+  font-size: xx-large;
+  font-family: SuisseWorks-Bold;
+  text-align: center;
+}
+
+.fourth-paragraf {
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+  font-size: large;
+  text-align: center;
+}
+
+.fifth-paragraf-content {
+  font-size: xx-large;
+  margin-top: 1rem;
+  text-align: justify;
+  color: #ffffff;
+  font-family: SuisseWorks-Bold;
+  padding: 55px;
+}
+
+.seventh-paragraf-content{
+  font-size: xx-large;
+  margin-top: 4rem;
+  text-align: center;
+  font-family: SuisseWorks-Bold;
+}
+
+.seventh-paragraf {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: unset;
+}
+
+.eigth-paragraf-content {
+  font-size: xx-large;
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: SuisseWorks-Bold;
+}
+
+.eigth-paragraf {
+  font-size: large;
+  margin-top: 1rem;
+  text-align: center;
+  color: #ffffff;
+  font-family: SuisseWorks-Bold;
+}
+
+.heading-list{
+  font-weight: bold;
+}
+
+.group-list {
+  display: flex;
+  gap: 100px;
+}
+
+.group-list-2 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 100px;
+}
+
+.list-paragraf-content {
+  text-align: justify;
+  font-weight: 200;
+}
+
+.fifth-paragraf-content::before {
+  content: "";
+  background-image: url(https://business.udemy.com/wp-content/themes/udemy-business-child/images/quote-yellow-double.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 90px;
+  height: 50px;
+}
+
+.title {
+  font-family: SuisseWorks-Bold;
+}
+
+.regis-btn {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.regis-btn:hover {
+  transform: translateY(-1px);
+  background-color: rgb(114, 64, 2);
+}
+
+.regis-btn:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.learn-more-btn {
+  margin-top: 2rem;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.learn-more-btn:focus {
+  color: #171e29;
+}
+
+.learn-more-btn:hover {
+  border-color: rgb(114, 64, 2);
+  color: rgb(114, 64, 2);
+  fill: rgb(114, 64, 2);
+}
+
+.learn-more-btn:active {
+  border-color: rgb(114, 64, 2);
+  color: rgb(114, 64, 2);
+  fill: rgb(114, 64, 2);
+}
+
+@media (min-width: 768px) {
+  .learn-more-btn {
+    min-width: 170px;
+  }
+}
+
+.btn-demo {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.demo-btn {
+  margin-top: 1rem;
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.demo-btn:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .demo-btn {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+.first-content {
+  margin-top: 10px;
+  padding: 10px 95px 0px 95px;
+  background-color: #ffffff;
+  background-image: url(https://business.udemy.com/wp-content/uploads/2023/03/Homepage-Hero-image-2560x800-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.sec-content {
+  padding: 10px 95px 0px 95px;
+  /* align-items: center; */
+  justify-content: center;
+  display: flex;
+}
+
+.third-content {
+  padding: 10px 95px 0px 95px;
+  background-color: #333;
+  justify-content: center;
+  display: flex;
+}
+
+.fourth-content {
+  padding: 10px 95px 0px 95px;
+  justify-content: center;
+  display: flex;
+}
+
+.fifth-content {
+  padding: 10px 95px 0px 95px;
+  background-color: #5900ff;
+  justify-content: center;
+  display: flex;
+}
+
+.sixth-content {
+  padding: 10px 95px 0px 95px;
+  justify-content: center;
+  display: flex;
+}
+
+.seventh-content {
+  padding: 10px 95px 0px 95px;
+  justify-content: center;
+  display: flex;
+  background-color: #f5f2f2;
+}
+
+.seventh-content a {
+  color: rgb(102, 0, 219);
+  font-weight: bold;
+}
+
+.eighth-content {
+  padding: 10px 95px 0px 95px;
+  justify-content: center;
+  display: flex;
+  background-color: #a435f0;
+}
+
+.eighth-content a {
+  margin-top: 10px;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.report-section {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.content-logo {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.content-section {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section-2 {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section-3 {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section-4 {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.content-section-5 {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
